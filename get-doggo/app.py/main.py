@@ -19,9 +19,7 @@ Designed as an example for James and Alec's Experiements repo for future project
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.responses import HTMLResponse
-import requests
-import re
-import threading
+import httpx
 
 
 # Initailize the FastAPI application
